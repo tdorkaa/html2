@@ -1,0 +1,29 @@
+#cell21 {
+    background-color: blue;
+}
+
+.cell333 {
+    background-color: chartreuse;
+}
+
+.row1class{
+    background-color: brown;
+}
+.row2class{
+    background-color: darkgreen;
+}
+
+tr:first-child td:first-child {
+    background-color: brown;
+}
+
+div table tr:nth-child(3) td:nth-child(3) {
+    background-color: darkgreen;
+}
+
+div input[type="password"] {
+    background-color: aquamarine;
+}
+
+
+

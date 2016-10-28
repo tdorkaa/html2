@@ -1,0 +1,46 @@
+#rectangle1 {
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    /*display: inline-block;*/
+    /*position: relative;*/
+    /*top: -100px;*/
+    align-self: center;
+
+}
+
+#rectangle2 {
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    /*display: inline-block;*/
+    /*position: relative;*/
+    /*top: -40px;*/
+    align-self: center;
+
+}
+
+#rectangle3 {
+    width: 600px;
+    height: 300px;
+    background-color: green;
+    /*display: inline-block;*/
+    /*position: relative;*/
+    align-self: center;
+}
+
+#rectangle1:hover {
+    background-color: blueviolet;
+}
+
+#rectangle2:hover {
+    background-color: blueviolet;
+}
+
+#rectangle3:hover {
+    background-color: blueviolet;
+}
+
+.rectangles {
+    display: flex;
+}
